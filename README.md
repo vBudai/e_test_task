@@ -13,7 +13,7 @@
 
 ## Примеры запросов:
 1. _/oauth_:
-```json
+```
 curl --location 'http://vbudai8u.beget.tech/oauth?code=%3Ccode%3E&referer=etesttask.amocrm.ru&platform=1&client_id=%3Cclient_id%3E&from_widget=1' \
 --header 'Accept: application/json, text/plain, */*' \
 --header 'Content-Type: text/plain' \
@@ -21,7 +21,7 @@ curl --location 'http://vbudai8u.beget.tech/oauth?code=%3Ccode%3E&referer=etestt
 ```
 
 2. _/webhook/contacts/create_:
-```json
+```
 curl --location 'http://localhost:80/webhook/contacts/create' \
 --header 'accept-encoding: gzip' \
 --header 'x-amocrm-requestid: ac0999fe-a56c-434d-b7ba-8cb676f02e26' \
@@ -44,7 +44,7 @@ curl --location 'http://localhost:80/webhook/contacts/create' \
 --data-urlencode 'contacts%5Badd%5D%5B0%5D%5Btype%5D=contact'
 ```
 3. _/webhook/contacts/update_:
-```json
+```
 curl --location 'http://localhost:80/webhook/contacts/update' \
 --header 'accept-encoding: gzip' \
 --header 'x-amocrm-requestid: 249d486e-b53a-465a-8fe2-f6cd830ad18a' \
@@ -82,7 +82,7 @@ curl --location 'http://localhost:80/webhook/contacts/update' \
 --data-urlencode 'contacts%5Bupdate%5D%5B0%5D%5Btype%5D=contact'
 ```
 4. _/webhook/leads/create_:
-```json
+```
 curl --location 'http://localhost:80/webhook/leads/create' \
 --header 'accept-encoding: gzip' \
 --header 'x-amocrm-requestid: 471e2579-9a4a-4ce1-8af8-039aa98fd063' \
@@ -107,7 +107,7 @@ curl --location 'http://localhost:80/webhook/leads/create' \
 --data-urlencode 'leads%5Badd%5D%5B0%5D%5Bupdated_at%5D=1748268669'
 ```
 5. _/webhook/leads/update_:
-```json
+```
 curl --location 'http://localhost:80/webhook/leads/update' \
 --header 'accept-encoding: gzip' \
 --header 'x-amocrm-requestid: 423651ce-905d-4833-9db0-a21f44575517' \
