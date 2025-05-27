@@ -1,0 +1,12 @@
+/.idea
+/config/amocrm_access_token.json
+###> symfony/framework-bundle ###
+/.env.local
+/.env.local.php
+/.env.*.local
+/.env
+/config/secrets/prod/prod.decrypt.private.php
+/public/bundles/
+/var/
+/vendor/
+###< symfony/framework-bundle ###
